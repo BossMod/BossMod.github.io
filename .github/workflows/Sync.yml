@@ -4,10 +4,7 @@ name: Build the BossMods Online Editor
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
-
-  schedule:
-    - cron: "*/5 * * * *"
+    branches: ["main"] 
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
